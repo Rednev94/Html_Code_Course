@@ -1,0 +1,71 @@
+body {
+    color: #494242;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+h1 {
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+    border: 3px solid red;
+    }
+
+.rounded {
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.blue   {
+    background-color:rgba(0, 0, 255, 0.315) ;
+}
+
+.red{
+    background-color: rgba(255, 0, 0, 0.247);
+    
+}
+
+img {
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 50px rgb(55, 151, 10); 
+    transition: 0.3s;  /* время увеличения картинки */
+    }
+
+img:hover {
+    transform: scale(1.1); /* увеличение картинки на 10% */
+}
+
+a { 
+    text-decoration: none;
+    color:antiquewhite ;
+    background: darkgray;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: aquamarine;
+    color: blueviolet;
+}
+
+.block {
+    width: 30%;
+    border-radius: 40px;
+    padding: 15px;
+}
+
+.green {
+    background-color: rgba(128, 255, 0, 0.301);
+}
+
+.orange {
+    background-color: rgba(255, 140, 0, 0.301);
+}
+
+.grey {
+    background-color: rgba(128, 128, 128, 0.301);
+}
+
+.block img {
+    width: 80%;
+}
