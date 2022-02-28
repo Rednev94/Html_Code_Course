@@ -1,0 +1,96 @@
+body {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.container {
+    width: 1920px;
+    margin: auto;
+    
+}
+
+header {
+    display: flex;
+    height: 80px;
+    box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+.content {
+    background-color: burlywood;
+    }
+
+h1 {
+    color: #424242;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 63px;
+}
+
+h2 {
+    color: #212121;
+    font-size: 18px;
+}
+
+h3 {
+    color: #424242;
+    font-size: 16px;
+    width: 196px;
+}
+
+h4 {
+    color: #424242;
+    font-size: 18px;
+}
+
+.red {
+    color: #ff445a;
+}
+
+.flowers {
+    display: flex;
+    justify-content: space-around;
+    width: 1137.5px;
+    height: 351px;
+    margin: auto;
+    text-align: center;
+}
+
+.quote {
+    height: 283px;
+    border-top: 1px solid #FFB5B5 ;
+    border-bottom: 1px solid #FFB5B5 ;
+    width: 1137.5px;
+    text-align: center;
+    margin: auto;
+    }
+
+.quoteText {
+    font-size: 32px;
+    padding-top: 101px;
+    }
+
+.quoteAuthor {
+    font-size: 24px;
+    }
+
+footer {
+    background-color: #FFB5B5;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.poem {
+    display: flex;
+    justify-content: center;
+    margin: 88px ;
+}
+
+.poem h4 {
+    width: 555px;
+}

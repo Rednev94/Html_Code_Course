@@ -1,0 +1,77 @@
+/* общие стили */
+body {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* стили хэдера */
+header {
+    background-color: blueviolet;
+    height: 80px;
+    display: flex; /* расположение по строке */
+    justify-content: space-between;  /* расположение по краям */
+    align-items: center; /* расположение по центру вертикали */
+}
+
+/* стили навигации */
+.main-menu {
+    background-color: cornflowerblue;
+}
+.main-menu-list {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+/* Стили контентной части */
+
+.content    {
+    display: flex;
+    }
+
+.main-section   {
+    background-color: cadetblue;
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-section-item  {
+    background-color: antiquewhite;
+    width: calc(50% - 30px);
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 15px;
+}
+
+/* Стили сайтбара */
+
+.sidebar-right  {
+    background-color: darkgreen;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Стили футера*/
+
+footer {
+    background-color: darkorange;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
